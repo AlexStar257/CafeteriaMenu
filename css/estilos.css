@@ -117,51 +117,6 @@ a {
 
 }
 
-.seccionSnacks {
-    font-size: 25px;
-
-
-}
-
-.seccionSnacks a {
-    text-decoration: none;
-    color: black;
-}
-
-.seccionSnacks img {
-    width: 150px;
-    height: 150px;
-
-}
-
-.seccionSnacks img:hover {
-    width: 200px;
-    height: 200px;
-
-}
-
-.seccionGalletasPapasDulces{
-    font-size: 25px;
-}
-
-.seccionGalletasPapasDulces img{
-    width: 200px;
-    height: 200px;
-}
-
-
-.imagenes-href {
-    margin-top: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.galletitas p {
-    display: flex;
-    justify-content: center;
-}
-
 .nav_logo-icon {
     font-size: 3rem;
     color: var(--white-color)
@@ -193,7 +148,7 @@ a {
 
 .nav_link {
     position: relative;
-    color: black;
+    color:black;
     margin-bottom: 1.5rem;
     transition: .3s;
     text-decoration: none;
@@ -264,4 +219,40 @@ a {
     .body-pd {
         padding-left: calc(var(--nav-width) + 188px)
     }
+}
+
+/* MENU SALUDABLE */
+#contenedorSaludables{
+
+}
+#imgSaludables{ 
+  align-items: center;
+  display:flex;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+
+#contenedorSaludables img{
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+
+}
+.btnSaludables:hover{
+    background-color: rgb(210, 210, 210);
+}
+
+#contenedorSaludables img:hover{
+    justify-content: space-evenly;
+}
+
+#imgSaludables a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.elementoSaludable:hover{
+    color: #182c81;
 }
