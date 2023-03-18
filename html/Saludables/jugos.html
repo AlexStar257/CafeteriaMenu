@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/2b4f2e6877.js" crossorigin="anonymous"></script>
 </head>
 
+
 <body id="body-pd">
     <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
@@ -34,18 +35,58 @@
             </div> <a href="#" class="nav_link"> <i class="fa-solid fa-gear"></i> </a>
         </nav>
     </div>
-    <!--Container Main start-->
+    <!--Contenido de menu Saludables-->
     <div class="height-100 bg-light">
         <br><br><br><br>
-        <center>
-            <section class="featured-dish">
-                <h2>Platillo del día</h2>
-                <img src="/img/comida.png" alt="Platillo del día">
-                <p class="dish-name">Nombre del platillo</p>
-                <p class="dish-description">Descripción del platillo</p>
-                <p class="dish-price">$10</p>
-            </section>
-        </center>
+
+        <section id="contenedorSaludables">
+            <h2>Jugos</h2>
+            <center>
+
+                <div  id="imgSaludables" style="background-color: white" class="btn-group" role="group" aria-label="Basic example">
+                    <button class = "btnSaludables" type="button" class="btn btn-primary" >
+                        <a href=""><img class="imgSaludables;" src="/img/verde.png" alt="">
+                            <div class="elementoSaludable">
+                                <h3>$45</h3>
+                                <h5 style="text-decoration: none;">Jugo Detox</h5>
+                                <p><i> Piña, nopal, espinacas, apio y jugo de naranja</i></p>
+                            </div>
+                    </a></button>
+                    <button class = "btnSaludables" type="button" class="btn btn-primary">
+                        <a href=""><img class="imgSaludables" src="/img/avena.png" alt="">
+                            <div class="elementoSaludable">
+                                <h3>$45</h3>
+                                <h5 style="text-decoration: none;">Jugo Nutritivo</h5>
+                                <p><i> Avena, manzana, miel, nuez y jugo de naranja</i></p>
+                            </div>
+                        </a>
+                    </button>
+                    <button class = "btnSaludables" type="button" class="btn btn-primary">
+                        <a href=""><img class="imgSaludables;" src="/img/rojo.png" alt="">
+                            <div class="elementoSaludable"> 
+                                <h3>$45</h3>
+                                <h5 style="text-decoration: none;">Jugo Energetico</h5>
+                                <p>Betabel, naranja, pepino, espinaca, manzana roja y zanahoria</p>
+                            </div>
+                         </a>
+                    </button>
+                    <button  class = "btnSaludables" type="button" class="btn btn-primary">
+                        <a href=""><img class="imgSaludables" src="/img/naranja.png" alt="">
+                            <div class="elementoSaludable">
+                                <h3>$45</h3>
+                                <h5 style="text-decoration: none;">Jugo Anaranjado</h5>
+                                <p>Porcion de Zanahoria, apio y jugo de Naranja</p>
+                            </div>
+                        </a>
+                    </button>
+                  </div>
+            </center>
+            <br><br><br>
+            <button type="button" class="btn btn-light" style="background-color: lightgrey;">
+                <a href="/html/Saludables/menuSaludable.html">Regresar</a>
+                </button>
+        </section>
+
 
     </div>
     <!--Container Main end-->
@@ -96,9 +137,7 @@
     <script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
         myLink.addEventListener('click', function (e) {
             e.preventDefault();
-        });
-
-    </script>
+        });</script>
 
 </body>
 

@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/2b4f2e6877.js" crossorigin="anonymous"></script>
 </head>
 
+
 <body id="body-pd">
     <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
@@ -34,18 +35,38 @@
             </div> <a href="#" class="nav_link"> <i class="fa-solid fa-gear"></i> </a>
         </nav>
     </div>
-    <!--Container Main start-->
+    <!--Contenido de menu Saludables-->
     <div class="height-100 bg-light">
         <br><br><br><br>
-        <center>
-            <section class="featured-dish">
-                <h2>Platillo del día</h2>
-                <img src="/img/comida.png" alt="Platillo del día">
-                <p class="dish-name">Nombre del platillo</p>
-                <p class="dish-description">Descripción del platillo</p>
-                <p class="dish-price">$10</p>
-            </section>
-        </center>
+
+        <section id="contenedorSaludables">
+            <h2>Comida saludable</h2>
+            <center>
+
+                <div  id="imgSaludables" style="background-color: white;" class="btn-group" role="group" aria-label="Basic example">
+                    <button class = "btnSaludables" type="button" class="btn btn-primary" >
+                        <a href="/html/Saludables/jugos.html"><img class="imgSaludables;" src="/img/jugos.png" alt="">
+                            <div class="elementoSaludable"><h5 style="text-decoration: none;">Jugos Nutritivos</h5></div>
+                    </a></button>
+                    <button class = "btnSaludables" type="button" class="btn btn-primary">
+                        <a href="/html/Saludables/ensaladas.html"><img class="imgSaludables" src="/img/ensalada.png" alt="">
+                            <div class="elementoSaludable"><h5 style="text-decoration: none;">Ensaladas</h5></div>
+                        </a>
+                    </button>
+                    <button class = "btnSaludables" type="button" class="btn btn-primary">
+                        <a href="/html/Saludables/frutas.html"><img class="imgSaludables;" src="/img/fruta.png" alt="">
+                            <div class="elementoSaludable"> <h5 style="text-decoration: none;">Fruta picada</h5></div>
+                         </a>
+                    </button>
+                    <button  class = "btnSaludables" type="button" class="btn btn-primary">
+                        <a href="/html/Saludables/sandwiches.html"><img class="imgSaludables" src="/img/sandwiches.png" alt="">
+                            <div class="elementoSaludable"><h5 style="text-decoration: none;">sandwiches</h5></div>
+                        </a>
+                    </button>
+                  </div>
+            </center>
+        </section>
+
 
     </div>
     <!--Container Main end-->
@@ -96,9 +117,7 @@
     <script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
         myLink.addEventListener('click', function (e) {
             e.preventDefault();
-        });
-
-    </script>
+        });</script>
 
 </body>
 
