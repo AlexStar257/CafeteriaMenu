@@ -122,18 +122,18 @@ a {
     color: var(--white-color)
 }
 
-.nav img{
+.nav img {
     width: 60px;
     height: 60px;
 }
 
-.fa-solid{
+.fa-solid {
     font-size: 25px;
     margin-left: 1rem;
     margin-top: 1rem;
 }
 
-.nav_name{
+.nav_name {
     display: flex;
     justify-content: center;
     text-decoration: solid;
