@@ -303,9 +303,13 @@ a {
     color: black;
     
 }
+#featured-di:hover{
+    background-color: lightcyan;
+}
 
 .elementoSaludable:hover{
     color: #182c81;
+    
 }
 
  /* Menu Principal (Platillo del dia) */

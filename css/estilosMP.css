@@ -128,3 +128,7 @@ footer {
     flex-basis: 100%;
     }
 }
+
+.featured-dish:hover {
+	background-color: lightblue;
+}
