@@ -92,7 +92,7 @@ a {
 .l-navbar {
     position: fixed;
     top: 0;
-    left: 5%;
+    left: 0%;
     width: var(--nav-width);
     height: 100vh;
     background-color: rgb(142, 180, 252);
