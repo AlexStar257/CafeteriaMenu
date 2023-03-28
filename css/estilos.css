@@ -92,7 +92,7 @@ a {
 .l-navbar {
     position: fixed;
     top: 0;
-    left: -30%;
+    left: -5%;
     width: var(--nav-width);
     height: 100vh;
     background-color: rgb(142, 180, 252);
@@ -358,3 +358,8 @@ a {
     color: rgb(0, 0, 0);
     text-align: center;
   }
+
+#contenedorSaludables button{
+    display: block;
+    align-content: end;
+}
