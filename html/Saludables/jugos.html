@@ -13,7 +13,7 @@
 
 
 <body id="body-pd">
-    <header class="header" id="header">
+    <header class="header" id="header" style="width: 500px;">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
     </header>
     <div class="l-navbar" id="nav-bar">
@@ -24,8 +24,8 @@
                 <div class="nav_list">
                     <a href="/html/menuPrincipal.html" class="nav_link"> <i class="fa-solid fa-calendar-days"></i> <span
                             class="nav_name">Comida del día</span> </a>
-                            <a href="/html/menuComidas.html" class="nav_link"> <i class="fa-solid fa-utensils"></i> <span
-                                class="nav_name">Comidas</span> </a>
+                    <a href="/html/menuComidas.html" class="nav_link"> <i class="fa-solid fa-utensils"></i> <span
+                            class="nav_name">Comidas</span> </a>
                     <a href="/html/menuBebidas.html" class="nav_link"> <i class="fa-solid fa-beer-mug-empty"></i> <span
                             class="nav_name">Bebidas</span> </a>
                     <a href="/html/menuSnacks.html" class="nav_link"> <i class="fa-solid fa-cookie"></i> <span
@@ -37,14 +37,19 @@
     </div>
     <!--Contenido de menu Saludables-->
     <div class="height-100 bg-light">
-        <br><br>
+        <br>
+        <div style="display: flex; justify-content: flex-end;">
+            <button type="button" class="btn btn-light" style="background-color: rgb(221, 221, 221);  ">
+                <a style="color: rgb(0, 0, 0); text-decoration: none; justify-content: flex-end;"
+                    href="/html/menuSaludable.html">Regresar</a>
+            </button>
+
+        </div>
 
         <section id="contenedorSaludables">
-            <button type="button" class="btn btn-light" style="background-color: rgb(221, 221, 221); ">
-                <a style="color: rgb(0, 0, 0); text-decoration: none;" href="/html/menuSaludable.html">Regresar</a>
-            </button>
+
             <center>
-<h2>Jugos</h2>
+                <h2>Jugos</h2>
                 <div id="imgSaludables" style="background-color: white" class="btn-group" role="group"
                     aria-label="Basic example">
 
@@ -99,8 +104,9 @@
                 </div>
 
             </center>
-            
+
         </section>
+        
 
 
     </div>
